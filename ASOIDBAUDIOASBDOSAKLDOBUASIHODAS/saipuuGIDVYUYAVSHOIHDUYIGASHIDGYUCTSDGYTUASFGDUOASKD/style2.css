@@ -1,0 +1,135 @@
+.imglogobrow { /* Yang kerjakan file tersebut adalah Samuel */
+    width: 70px; 
+    margin-top: 20px; 
+    margin-bottom: 0px; 
+}
+
+.CENTERIMAGERAHHH{ 
+    display: flex; 
+    align-items: center;
+    vertical-align: top;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.kolor1ksas {
+    color:white;
+    margin-top: 5px;
+}
+
+.kolor1ksas2 {
+    color:white;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.kolor1ksas3 {
+    color:white;
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 12px;
+}
+
+.kolor1ksas4 {
+    color:white;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin
+}
+
+.kolor1ksas5 {
+    color: white;
+    text-align: left;
+    margin-left: 2px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+body {
+    height: 108vh;
+  background: linear-gradient(0deg, #68da94 0%, #35729b 100%);
+  cursor: url(CursorTIger.png), auto
+}
+
+.penyatuboss2 {
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  gap: 35px;
+}
+.Batasankulaut2pointo {
+  border: 0 solid rgba(0, 0, 0, 0.3);
+  border-radius: 8px; 
+  text-align: center;
+  background: transparent;
+  width: 285px;
+  height: 375px;
+  border: 90%;
+  box-shadow: 0 0 10px black;
+}
+
+.Batasankulaut2pointo:hover{
+    transform: scale(1.03);
+    transition-duration: 1s;
+}
+
+.Batasankulaut2pointo:not(:hover){
+    transition-duration: 1s;
+}
+
+.imgorangorangosismybro {
+    width: 85px;
+  aspect-ratio: 1 / 1;
+  object-fit:cover;
+  display:circle;
+  margin: 15px auto;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-top: 30px;
+}
+
+.imgorangorangosismybro1 {
+    width: 85px;
+  aspect-ratio: 1 / 1;
+  object-fit:cover;
+  display:circle;
+  margin: 15px auto;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-top: 30px;
+  object-position: center 20%;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.botoong1 {
+  width: 175px;
+  height: 35px;
+  background-color: #3a79cb;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 100px;
+  font-weight: bold;
+  cursor: url(CursorTIger.png), auto;
+  margin-bottom: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  margin-top: 30px;
+}
+.botoong1:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  background-color: #3227a8;
+}
+/* Hingga Sini */

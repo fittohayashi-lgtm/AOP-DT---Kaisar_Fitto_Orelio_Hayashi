@@ -1,0 +1,68 @@
+body { /* Kita berdisuksi saat mengerjakan ini, sementara Samuel yang tuliskan kodenya*/
+    height: 94vh;
+  background: linear-gradient(0deg, #504fab 0%, #feb4b4 100%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Kartukusangatbaik {
+  width:300px;
+  aspect-ratio: 1 / 1;
+  object-fit:cover;
+  border-radius:8px;
+  display:block;
+  margin: 15px auto;
+}
+
+h2 {
+  color: #1e3cc4;
+}
+
+.fotokubung {
+  width: 65px;
+    margin-top: 20px;
+}
+
+.Batasankulaut {
+  border: 0 solid rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  text-align: center;
+  background-color: #ffffffa9;
+}
+.botoong {
+  width: 80%;
+  height: 35px;
+  background-color: #3a79cb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+
+.Kiriabangku {
+  text-align: left;
+  margin-left: 25px;
+  display: block;
+  color: rgb(5, 5, 129);
+  font-weight: bold;
+}
+
+.BOXAKHIRNYADAPETYES {
+  width: 245;     
+  height: 35px;     
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid #19699e;
+  display: block;
+}
+
+.botoong:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  background-color: #3227a8;
+}
+/* Hingga Sini */

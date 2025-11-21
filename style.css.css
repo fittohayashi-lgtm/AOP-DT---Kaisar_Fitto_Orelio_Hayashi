@@ -1,91 +1,64 @@
-<html>
-<head>
-  <title>My favourite Music - Kaisar Fitto Orelio Hayashi </title>
-  <link rel="icon" href="logo-las-286x300-1.png">
-<link rel="stylesheet" href="style.css.css">
-</head>
-<body> 
-      <h1>
-          <a href="ASOIDBAUDIOASBDOSAKLDOBUASIHODAS/index1.html"> <img src="logo-las-286x300-1.png" class="SOR"></a>
-           3 - Card music player - Kaisar Fitto Orelio Hayashi</h1>
-      <div class="sub"> Hai ini namaku Kaisar Fitto Orelio Hayashi
-      <code>absen 12</code>
-      dan inilah nilai <code>AOP</code></div></header>
-
-<section class="Hayashi">
-      <article class="Hayashi2">
-       
-<img src="Foto1.jpg"  class="album">
-        </div>
-        <div class="meta1">
-          <h2 class="artis1">Sheila on 7</h2>
-          <p class="judul1">Film Favorit</p>
-        </div>
-       
-        <audio controls preload="metadata">
-        <source src="Sheila on 7 - Film Favorit [Official Lyric Video] [YBOZu1dWKyg].mp3" type="audio/mpeg"></audio>
-      </audio>
-      </article>
-     
- 
-      <article class="Hayashi2">
-       
-<img src="Foto2.jpg" class="album">
-        </div>
-        <div class="meta2">
-          <h2 class="artis2">Westlife</h2>
-          <p class="judul2">Swear It Again</p>
-        </div>
-       
-        <audio controls preload="metadata">
-        <source src="Westlife - Swear It Again (Official Video) [0UaMsIJ4bR0].mp3" type="audio/mpeg"></audio>
-      </audio>
-      </article>
-
-
-     
- 
-      <article class="Hayashi2">
-       
-<img src="Foto3.jpg" class="album">
-        </div>
-        <div class="meta3">
-          <h2 class="artis3">.Feast</h2>
-          <p class="judul3">Tarot</p>
-        </div>
-       
-        <audio controls preload="metadata">
-        <source src="Tarot - .Feast _ Lirik Lagu [0x-g7hOYgco].mp3" type="audio/mpeg"></audio>
-      </audio>
-      </article>
-</section>
-<section class="Hayashi">
-      <article class="Hayashi2">
-        <img src="FotoKaisar.png" width="200px">
-      </div>
-      <div class="meta">
-        <h2 class="text">Kesan dan Pesan</h2>
-          <p class="text">Mengapa kamu memilih lagu ini?</p>
-     
-   
-     <p class="text">
-            1.Saya memilih lagu Film favourite ini karena menurut saya lagu ini sangat bagus 
-            untuk anak muda yang sedang jatuh cinta. Tapi menurut saya lagu ini bukan hanya 
-            tentang cinta tetapi tentang keindahan yang di buat oleh yang di atas    <br>
-            2. Untuk lagu kedua ini saya sangat suka dengan lagu ini karena dalam lagu ini 
-            memberikan saya pesan bahwa sepenting itu membangun komitmen yang baik dan juga 
-            menjaga komitmen itu<br>
-            3. Saya memilih lagu yang berjudul Tarot ini karena menurut saya sangat enak di 
-            dengar, setelah itu juga lagu ini memiliki pesan bahwa apa yang kita pikirkan itu 
-            belum tentu sesuai dan  dapat melukai kita asekkkk </p>
-        </div>
-      </article>
-</section>
-
-
-
-    <footer class="foot"><b>Roasting</b> : Terima kasih banyak sir atas pelajaran hidup yang berharga ini!!</footer>
-  </main>
-</body>
-</html>
+ h1 {
+  text-align: center;
+  background: linear-gradient(90deg, rgb(63, 2, 2), rgb(82, 78, 70), rgb(36, 36, 35), green, rgb(176, 10, 160), purple, rgb(76, 11, 11));
+  background-size: 400%;
+  color: transparent;
+  background-clip: text;
+  animation: pelangi 8s linear infinite;
+  text-shadow: 0 0 15px white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+@keyframes pelangi {
+  0% { background-position: 0%; }
+  100% { background-position: 400%; }
+}
+.SOR {
+  display: flex;
+justify-content: center;
+align-items: center;
+width: 55px;
+margin-right: 15px;
+}
+body {
+  margin: 0;
+   padding: 0;
+  background-color: #1a264e;
+  color: rgb(241, 237, 237);
+   text-align: center;
+}
+section.Hayashi {
+   display: flex;
+    gap: 30px ;
+  justify-content: center;
+   flex-wrap: wrap;
+  padding: 30px;
+}
+article.hayashi2 {
+    background: rgba(188, 89, 89, 0.15);
+    border-radius: 15px;
+  width: 275px;
+     padding: 20px;
+  box-shadow: 0 4px 8px rgba(215, 135, 135, 0.3);
+}
+.album {
+  width:100%;
+    aspect-ratio: 1 / 1;
+  object-fit:cover;
+    border-radius:8px;
+  display: block;
+}
+audio {
+  width: 100%;
+   margin-top: 13px;
+}
+.foot {ground: rgba(14, 12, 12, 0.3);
+    padding: 15px;
+     margin-top: 35px;
+     background-color: #a9baf0;
+}
 

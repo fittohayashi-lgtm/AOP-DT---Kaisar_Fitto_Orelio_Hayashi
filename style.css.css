@@ -10,10 +10,21 @@
   text-shadow: 0 0 15px white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 @keyframes pelangi {
   0% { background-position: 0%; }
   100% { background-position: 400%; }
+}
+.SOR {
+  display: flex;
+justify-content: center;
+align-items: center;
+width: 55px;
+margin-right: 15px;
 }
 body {
   margin: 0;
@@ -52,5 +63,6 @@ audio {
      margin-top: 35px;
      background-color: #a9baf0;
 }
+
 
 
